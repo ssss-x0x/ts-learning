@@ -48,8 +48,17 @@ import { isUserSignedIn, isUserSignedIn2, sumProductsPrice } from './function/pa
 // 05. オブジェクトの型定義
 import objectSample from './object/object'
 
-objectSample()
+// objectSample()
 
 import typeAliasSample from './object/alias'
 
-typeAliasSample()
+// typeAliasSample()
+
+// 06. 配列・タプルの型定義
+import arraySample from './array/array'
+
+arraySample()
+
+import tupleSample from './array/tuple'
+
+tupleSample()
