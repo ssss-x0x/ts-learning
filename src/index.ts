@@ -29,18 +29,27 @@ import {
 // logMessage4('Hello TypeScript!')
 // alwaysThrowError('Error Message')
 
-logMessage6('test')
-logMessage7('test')
+// logMessage6('test')
+// logMessage7('test')
 
 import { isUserSignedIn, isUserSignedIn2, sumProductsPrice } from './function/parameters'
 
-isUserSignedIn('ABC', 'sha-sha')
-isUserSignedIn('ABC')
-isUserSignedIn('DEF')
+// isUserSignedIn('ABC', 'sha-sha')
+// isUserSignedIn('ABC')
+// isUserSignedIn('DEF')
 
-isUserSignedIn2('ABC', 'sha-sha')
-isUserSignedIn2('ABC')
-isUserSignedIn2('DEF')
+// isUserSignedIn2('ABC', 'sha-sha')
+// isUserSignedIn2('ABC')
+// isUserSignedIn2('DEF')
 
-const sum: number = sumProductsPrice(100, 200, 300, 400)
-console.log(`Function parameters sample5: ${sum}`)
+// const sum: number = sumProductsPrice(100, 200, 300, 400)
+// console.log(`Function parameters sample5: ${sum}`)
+
+// 05. オブジェクトの型定義
+import objectSample from './object/object'
+
+objectSample()
+
+import typeAliasSample from './object/alias'
+
+typeAliasSample()
