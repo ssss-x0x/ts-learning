@@ -67,8 +67,14 @@ import tupleSample from './array/tuple'
 // 08. ジェネリック型を使いながらポリモーフィズムを理解する
 import genericsBasicSample from './generics/basic'
 
-genericsBasicSample()
+// genericsBasicSample()
 
 import genericAdvancedSample from './generics/advanced'
 
-genericAdvancedSample()
+// genericAdvancedSample()
+
+// 09. TypeScriptで学ぶオブジェクト指向開発
+import Game from './oop/shogi'
+
+const game = new Game()
+console.log(game)
