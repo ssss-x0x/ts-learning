@@ -50,15 +50,25 @@ import objectSample from './object/object'
 
 // objectSample()
 
+// 06. 型エイリアスでオブジェクトの型定義
 import typeAliasSample from './object/alias'
 
 // typeAliasSample()
 
-// 06. 配列・タプルの型定義
+// 07. 配列・タプルの型定義
 import arraySample from './array/array'
 
-arraySample()
+// arraySample()
 
 import tupleSample from './array/tuple'
 
-tupleSample()
+// tupleSample()
+
+// 08. ジェネリック型を使いながらポリモーフィズムを理解する
+import genericsBasicSample from './generics/basic'
+
+genericsBasicSample()
+
+import genericAdvancedSample from './generics/advanced'
+
+genericAdvancedSample()
