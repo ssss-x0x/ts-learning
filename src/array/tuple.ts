@@ -16,5 +16,10 @@ export default function tupleSample() {
   const girlFriends: [string, ...string[]] = ['Kana', 'Miku', 'Keiko']
   girlFriends.push('Misa')
   //  girlFriends.push(1) // string型でないためNG
-  console.log('Array tuple sample2', response)
+  console.log('Array tuple sample2', girlFriends)
+
+  const girlFriends2: [string, ...(string | number)[]] = ['Kana', 'Miku', 'Keiko']
+  girlFriends2.push('Misa')
+  girlFriends2.push(girlFriends2.length)
+  console.log('Array tuple sample3', girlFriends2)
 }
