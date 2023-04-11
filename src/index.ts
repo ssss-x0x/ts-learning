@@ -76,12 +76,25 @@ import genericAdvancedSample from './generics/advanced'
 // 09. TypeScriptで学ぶオブジェクト指向開発
 import Game from './oop/shogi'
 
-const game = new Game()
-console.log(game)
+// const game = new Game()
+// console.log(game)
 
-// 09. TypeScriptで学ぶオブジェクト指向開発
+// 10. 型エイリアスとインターフェース
 import Comic from './interface/interface'
 
-const popularComic = new Comic(200, '鬼滅の刃', '2020')
-console.log(popularComic.getPublishYear())
-console.log(popularComic.getPage())
+// const popularComic = new Comic(200, '鬼滅の刃', '2020')
+// console.log(popularComic.getPublishYear())
+// console.log(popularComic.getPage())
+
+// 11. 非同期処理
+import callbackSample from './asynchronous/callback'
+
+callbackSample()
+
+import promiseSample from './asynchronous/promise'
+
+promiseSample()
+
+import asyncAwaitSample from './asynchronous/asyncawait'
+
+asyncAwaitSample()
