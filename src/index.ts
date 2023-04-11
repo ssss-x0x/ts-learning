@@ -78,3 +78,10 @@ import Game from './oop/shogi'
 
 const game = new Game()
 console.log(game)
+
+// 09. TypeScriptで学ぶオブジェクト指向開発
+import Comic from './interface/interface'
+
+const popularComic = new Comic(200, '鬼滅の刃', '2020')
+console.log(popularComic.getPublishYear())
+console.log(popularComic.getPage())
